@@ -1,0 +1,207 @@
+@font-face {
+    font-family: "Anonymous Pro";
+    src: url(fonts/AnonymousPro-Bold.ttf);
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: "Anonymous Pro";
+    src: url(fonts/AnonymousPro-Regular.ttf);
+}
+
+h1 {
+    font-family: "Anonymous Pro", sans-serif;
+    font-size: 56px;
+}
+
+h2 {
+    font-family: "Anonymous Pro", sans-serif;
+    font-size: 48px;
+}
+
+.container {
+    display: inline-block;
+    margin-left: 0px;
+    border-radius: 12px 12px 12px 12px;
+    background: var(--white, #FFF);
+
+}
+
+h3 {
+    font-family: "Anonymous Pro", sans-serif;
+    font-size: 26px;
+    width: 323px;
+    display: flex;
+    width: 371px;
+    padding: 0px 24px;
+    align-items: center;
+
+}
+
+p {
+    font-family: "Anonymous Pro", sans-serif;
+    font-size: 14px;
+    display: flex;
+    width: 371px;
+    padding: 0px 24px;
+    align-items: center;
+
+}
+
+img {
+    width: 370px;
+
+}
+
+
+.blue {
+    margin: 30px 10px 16px 96px;
+    width: 212px;
+    height: 63px;
+}
+
+header {
+    border-bottom: 3px solid grey;
+    background-color: white;
+}
+
+div {
+    display: flex;
+}
+
+.card {
+    color: #000;
+    font-family: Anonymous Pro;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
+    flex-direction: row-reverse;
+    width: 90px;
+    height: 50px;
+    margin-top: -15px;
+}
+
+.card_warp {
+    color: #000;
+    font-family: Anonymous Pro;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
+    flex-direction: row-reverse;
+    width: 160px;
+    height: 50px;
+    margin-top: -15px;
+}
+
+.top-menu:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+.menu-main {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    float: right;
+    margin-right: 80px;
+    margin-top: 50px;
+}
+
+body {
+    background-color: #F1F1F1;
+    flex-direction: column-reverse;
+}
+
+.title {
+    margin-left: 96px;
+}
+
+.content_wrap {
+    margin: 0 auto;
+    max-width: 1310px;
+    gap: 24px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container {
+    vertical-align: top;
+}
+
+footer {
+    background-color: #121723;
+    height: 142px;
+    margin-top: 24px;
+}
+
+.img_footer {
+    margin-top: 32px;
+    margin-bottom: 87px;
+}
+
+.card_warp_footer {
+    color: #000;
+    font-family: Anonymous Pro;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: left;
+    flex-direction: row-reverse;
+    width: 140px;
+    height: 30px;
+    margin-top: -15px;
+    color: white;
+    margin-right: -70px;
+}
+
+.card_footer {
+    color: #000;
+    font-family: Anonymous Pro;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: left;
+    flex-direction: row-reverse;
+    width: 90px;
+    height: 30px;
+    margin-top: -15px;
+    color: white;
+
+}
+
+.footer_section {
+    border-bottom: 1px solid gray;
+    height: 85px;
+    width: 1300px;
+    margin-left: 96px;
+}
+
+.footer_text {
+    color: var(--text_gray, #A1A6B4);
+    font-family: Anonymous Pro;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.footer_class_text {
+    margin-left: 617px;
+}
+
+.menu-main-footer {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    float: right;
+    margin-right: 45px;
+    margin-top: 50px;
+}
